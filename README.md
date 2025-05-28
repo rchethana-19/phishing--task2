@@ -1,7 +1,8 @@
 # phishing--task2
 Objective
 To identify and document common phishing traits in suspicious emails using manual inspection and online tools.
-Steps to Analyze a Phishing Email
+
+#Steps to Analyze a Phishing Email
 Get a Sample Email
 Use public sources like PhishTank or spam archives (do not use personal emails).
 
