@@ -21,7 +21,7 @@ Analyze a sample phishing email to identify and report key indicators of phishin
 - Used publicly available phishing sample from [PhishTank](https://www.phishtank.com/) / [Spam Archive] or mock email text.
 
 ### Step 2: Analyzed Sender Email
-- Checked the "From" address for signs of spoofing (e.g., `security@paypal.com` vs `secure-paypal@randomdomain.biz`)
+- Checked the "From" address for signs of spoofing 
 
 ### Step 3: Examined Email Header
 - Used an online header analyzer to trace the origin and check for IP/domain mismatches.
