@@ -1,31 +1,54 @@
-# phishing--task2
-**Objective**
-To identify and document common phishing traits in suspicious emails using manual inspection and online tools.
 
-**Steps to Analyze a Phishing Email**
+# Task 2 – Phishing Email Analysis
+
+## Objective
+Analyze a sample phishing email to identify and report key indicators of phishing such as spoofed sender addresses, misleading links, grammar issues, and social engineering tactics.
+
+---
+
+## Tools Used
+- Text editor (for viewing sample email)
+- Free Online Header Analyzer:
+  - https://mxtoolbox.com/EmailHeaders.aspx
+  - https://toolbox.googleapps.com/apps/messageheader/
+- Web browser (for verifying links/domains)
+
+---
+
+## Steps Followed
+
+### Step 1: Obtained a Sample Phishing Email
+- Used publicly available phishing sample from [PhishTank](https://www.phishtank.com/) / [Spam Archive] or mock email text.
+
+### Step 2: Analyzed Sender Email
+- Checked the "From" address for signs of spoofing (e.g., `security@paypal.com` vs `secure-paypal@randomdomain.biz`)
+
+### Step 3: Examined Email Header
+- Used an online header analyzer to trace the origin and check for IP/domain mismatches.
+
+### Step 4: Hovered Over Links
+- Identified mismatched URLs by hovering to reveal the actual destination (e.g., link says `https://paypal.com` but goes to `http://paypallogin.ru`)
+
+### Step 5: Looked for Threatening or Urgent Language
+- Example: “Your account will be suspended unless you verify within 24 hours!”
+
+### Step 6: Checked for Grammar and Spelling Errors
+- Found multiple basic English errors — a common sign of phishing.
+
+### Step 7: Checked for Suspicious Attachments
+- Flagged `.zip`, `.exe`, or macro-enabled `.doc` files
+
+---
 
 
-Get a Sample Email
-Use public sources like PhishTank or spam archives (do not use personal emails).
 
-Check Sender’s Address
-Look for spoofed domains (e.g., support@paypa1.com instead of paypal.com).
+##  What I Learned
 
-Analyze Email Headers
-Use tools like MXToolbox to check for SPF/DKIM/DMARC failures.
+- How to identify key phishing tactics (spoofing, urgency, deception)
+- How to analyze email headers to detect forgery
+- Importance of hovering over links before clicking
+- Awareness of how phishing uses social engineering to manipulate users
 
-Inspect Links & Attachments
-Hover over links (don’t click) and check if the real URL is suspicious or mismatched.
+---
 
-Identify Urgent or Threatening Language
-Look for scare tactics like “account will be suspended” or “verify now”.
-
-Look for Mismatched URLs
-Displayed links vs actual URLs should match — phishing emails often disguise bad links.
-
-Check for Grammar/Spelling Errors
-Typos and poor grammar are red flags.
-
-Summarize Your Findings
-List all phishing traits found in a simple table or checklist.
 
